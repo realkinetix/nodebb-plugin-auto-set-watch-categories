@@ -6,3 +6,4 @@ So, this plugin was created so one can set users to be watching whatever communi
 
 I have to thank @baris for this code. It's his, I didn't come up with it.
 
+To make much use of this, you have to edit library.js and add statements to make it watch the various categories for your users that make sense on your forum. (Duplicate and utilize the "await user.setCategoryWatchState ..." line as appropriate - you could add in more category consts if you like as well)
