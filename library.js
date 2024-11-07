@@ -12,7 +12,7 @@ const categories = require.main.require('./src/categories');
 
 const plugin = {};
 
-plugin.onUserCreate = async function ({ hookData }) {
+plugin.onUserCreate = async function (hookData) {
 
   const announcementCategory = 1;
   await user.setCategoryWatchState(hookData.user.uid, [announcementCategory], categories.watchStates.watching);
