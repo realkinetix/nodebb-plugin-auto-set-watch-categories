@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-quickstart",
-  "version": "0.4.3",
-  "description": "A starter kit for quickly creating NodeBB plugins",
+  "name": "nodebb-plugin-auto-set-watch-categories",
+  "version": "0.0.1",
+  "description": "My plugin for settings categories to Watch for new users",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodebb/nodebb-plugin-quickstart"
+    "url": "https://github.com/nodebb/nodebb-plugin-auto-set-watch-categories"
   },
   "keywords": [
     "nodebb",
@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodebb/nodebb-plugin-quickstart/issues"
+    "url": "https://github.com/nodebb/nodebb-plugin-auto-set-watch-categories/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-angular": "19.5.0",
-    "eslint": "9.x",
+    "eslint": "8.x",
     "eslint-config-nodebb": "0.2.1",
     "eslint-plugin-import": "2.x",
     "husky": "9.1.6",
