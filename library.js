@@ -15,7 +15,9 @@ const plugin = {};
 plugin.onUserCreate = async function (hookData) {
 
   const announcementCategory = 1;
+  const publicCategory = 2;
   await user.setCategoryWatchState(hookData.user.uid, [announcementCategory], categories.watchStates.watching);
+  await user.setCategoryWatchState(hookData.user.uid, [publicCategory], categories.watchStates.watching);
 
 };
 
